@@ -1,6 +1,6 @@
 package data.races.example;
 
-public class Main {
+public class DataRacesExample {
     public static void main(String[] args) {
         SharedClass sharedClass = new SharedClass();
         Thread thread1 = new Thread(() -> {

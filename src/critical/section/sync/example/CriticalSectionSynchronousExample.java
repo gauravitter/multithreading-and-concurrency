@@ -1,6 +1,6 @@
 package critical.section.sync.example;
 
-public class Main {
+public class CriticalSectionSynchronousExample {
     public static void main(String[] args) throws InterruptedException {
         InventoryCounter inventoryCounter = new InventoryCounter();
         IncrementingThread incrementingThread = new IncrementingThread(inventoryCounter);

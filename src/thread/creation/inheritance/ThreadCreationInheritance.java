@@ -1,10 +1,10 @@
-package thread.creation.part2;
+package thread.creation.inheritance;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Main {
+public class ThreadCreationInheritance {
     public static final int MAX_PASSWORD = 9999;
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package thread.creation.part1;
 
-public class Main2 {
+public class ThreadCreation2 {
 
     public static void main(String [] args) {
         Thread thread = new Thread(new Runnable() {

@@ -1,6 +1,6 @@
 package thread.termination.example;
 
-public class Main1 {
+public class ThreadTermination1 {
     public static void main(String [] args) {
         Thread thread = new Thread(new BlockingTask());
 

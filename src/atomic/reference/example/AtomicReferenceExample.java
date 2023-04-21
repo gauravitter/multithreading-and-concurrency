@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.locks.LockSupport;
 
-public class Main {
+public class AtomicReferenceExample {
     public static void main(String[] args) throws InterruptedException {
         //StandardStack<Integer> stack = new StandardStack<>();
         LockFreeStack<Integer> stack = new LockFreeStack<>();

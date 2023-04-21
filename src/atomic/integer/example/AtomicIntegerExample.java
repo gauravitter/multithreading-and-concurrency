@@ -1,6 +1,8 @@
-package intro.critical.section.example;
+package atomic.integer.example;
 
-public class Main {
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class AtomicIntegerExample {
     public static void main(String[] args) throws InterruptedException {
         InventoryCounter inventoryCounter = new InventoryCounter();
         IncrementingThread incrementingThread = new IncrementingThread(inventoryCounter);
@@ -48,18 +50,18 @@ public class Main {
     }
 
     private static class InventoryCounter {
-        private int items = 0;
+        private AtomicInteger items = new AtomicInteger(0);
 
         public void increment() {
-            items++;
+            items.incrementAndGet();
         }
 
         public void decrement() {
-            items--;
+            items.decrementAndGet();
         }
 
         public int getItems() {
-            return items;
+            return items.get();
         }
     }
 }

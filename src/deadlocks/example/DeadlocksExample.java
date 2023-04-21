@@ -2,7 +2,7 @@ package deadlocks.example;
 
 import java.util.Random;
 
-public class Main {
+public class DeadlocksExample {
     public static void main(String[] args) {
         Intersection intersection = new Intersection();
         Thread trainAThread = new Thread(new TrainA(intersection));

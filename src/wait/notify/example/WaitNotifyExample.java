@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Scanner;
 import java.util.StringJoiner;
 
-public class MainApplication {
+public class WaitNotifyExample {
     private static final String INPUT_FILE = "./out/matrices";
     private static final String OUTPUT_FILE = "./out/matrices_results.txt";
     private static final int N = 10;

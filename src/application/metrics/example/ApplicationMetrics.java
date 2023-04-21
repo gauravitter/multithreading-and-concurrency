@@ -2,7 +2,7 @@ package application.metrics.example;
 
 import java.util.Random;
 
-public class Main {
+public class ApplicationMetrics {
     public static void main(String[] args) {
         Metrics metrics = new Metrics();
 
