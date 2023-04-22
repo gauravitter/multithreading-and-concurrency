@@ -1,6 +1,6 @@
 # Multithreading and Concurrency
 - Thread Creation - [ThreadCreation1.java](./src/thread/creation/part1/ThreadCreation1.java)
-- Handling unchecked exceptions - [ThreadCreation2.java](./)
+- Handling unchecked exceptions - [ThreadCreation2.java](./src/thread/creation/part1/ThreadCreation2.java)
 - Create a secured vault using a code. How long will it take for the hackers to get into the vault by guessing the code. There will be few hacker threads brute forcing to break the code. There will be a police thread that will count down 10 sec and if the hackers have not found the code for the vault by then, the police thread will catch them - [ThreadCreationInheritance.java](./)
 - Terminating thread - [ThreadTermination1.java](./)
 - Terminating long running thread - [ThreadTermination2.java](./)
