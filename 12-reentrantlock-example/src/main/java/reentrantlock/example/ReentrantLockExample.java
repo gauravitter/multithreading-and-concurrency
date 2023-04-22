@@ -20,7 +20,7 @@ import java.util.*;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Main extends Application {
+public class ReentrantLockExample extends Application {
     public static void main(String[] args) {
         launch(args);
     }

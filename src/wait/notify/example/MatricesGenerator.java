@@ -6,10 +6,6 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.StringJoiner;
 
-/**
- * Objects as Condition Variables - Wait(), Notify() and NotifyAll()
- * https://www.udemy.com/java-multithreading-concurrency-performance-optimization
- */
 public class MatricesGenerator {
     private static final String OUTPUT_FILE = "./out/matrices";
     private static final int N = 10;

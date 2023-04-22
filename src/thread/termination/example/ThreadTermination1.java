@@ -5,6 +5,8 @@ public class ThreadTermination1 {
         Thread thread = new Thread(new BlockingTask());
 
         thread.start();
+        
+//        thread.interrupt();
     }
 
     private static class BlockingTask implements Runnable {
